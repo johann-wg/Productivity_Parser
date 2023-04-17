@@ -14,4 +14,4 @@ text = div_tag.get_text()
 # docx 파일 생성 및 텍스트 저장
 doc = docx.Document()
 doc.add_paragraph(text)
-doc.save('/Users/jjong/desktop/example.docx')  # 저장할 파일 이름을 지정하세요
+doc.save('/Users/desktop/example.docx')  # 저장할 파일 이름을 지정하세요
