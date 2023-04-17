@@ -18,4 +18,4 @@ text = span_tag.get_text()
 doc = docx.Document()
 doc.add_paragraph(text)
 
-doc.save('/Users/jjong/desktop/example.docx')
+doc.save('/Users/desktop/example.docx')
